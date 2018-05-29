@@ -10,17 +10,16 @@ body {
     background-color: white;
 }
 
-.secondsection {
-    background-color: white;
+p {
+    font-weight: normal;
 }
 
 .navbar {
-    background: url("../../resources/images/the-flatiron-building.png") center center no-repeat;
+    background: url("https://danired84.github.io/broadway/resources/images/the-flatiron-building.png") center center no-repeat;
 }
 
 .link {
     display: block;
-    color: white;
     font-size: 18px;
     margin: 10px 0;
     font-weight: bold;
@@ -32,10 +31,9 @@ h1 {
 
 .design {
     background: url("https://danired84.github.io/broadway/resources/images/the-flatiron-building.png") center center no-repeat;
-    font-size: 23px;
 }
 
-h1, .design {
+h1, .design, .link {
     color: white;
 }
 
@@ -43,12 +41,8 @@ h2 {
     font-size: 32px;
 }
 
-h3 {
+h3, .design {
     font-size: 23px;
-  }
-
-  p{
-    font-weight: normal;
   }
 
   .footer {
