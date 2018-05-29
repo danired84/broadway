@@ -1,60 +1,50 @@
 body {
-  background-color: white;
-  font-family: helvetica;
+    font-family: helvetica;
+    font-size: 14px;
 }
 
 .frame1 {
-  margin-top: 32px;
-  text-align: center;
-  background-color: white;
+    margin-top: 32px;
+    text-align: center;
+    background-color: white;
 }
 
 .secondsection {
-  background-color: white;
+    background-color: white;
+    font-weight: bold;
 }
 
 .navbar {
     background: url("../../resources/images/the-flatiron-building.png") center center no-repeat;
-
 }
 
 .link {
-  display: block;
-  color: white;
-  font-size: 18px;
-  margin: 10px 0;
-  font-weight: bold;
+    display: block;
+    color: white;
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
 }
 
 h1 {
+    font-size: 70px;
+}
 
-  font-size: 70px;
-  font-weight: bold;
-  color: white;
+.design {
+    background: url("https://danired84.github.io/broadway/resources/images/the-flatiron-building.png") center center no-repeat;
+    font-size: 23px;
+}
+
+h1, .design {
+    color: white;
 }
 
 h2 {
-
-  font-size: 32px;
-  font-weight: bold;
+    font-size: 32px;
 }
 
 h3 {
-
     font-size: 23px;
-    font-weight: bold;
-  }
-
-.design {
-  color: white;
-  background: url("https://danired84.github.io/broadway/resources/images/the-flatiron-building.png") center center no-repeat;
-  font-size: 23px;
-  font-weight: bold;
-}
-
-  p {
-
-    font-size: 14px;
   }
 
   .footer {
@@ -62,6 +52,7 @@ h3 {
     background-color: dimgray;
     font-size: 11px;
     color: white;
+    font-weight: normal;
   }
 
   .footer .link {
